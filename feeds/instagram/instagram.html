@@ -1,0 +1,11 @@
+<template name="instagramfeed">
+  <div id="photofeed" class="container">
+    {{#each images}}
+      {{> instagramimage}}
+    {{/each}}
+  </div>
+</template>
+
+<template name="instagramimage">
+  <img class="img-rounded span2" src="{{url}}" />
+</template>

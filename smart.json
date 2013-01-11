@@ -1,0 +1,16 @@
+{
+  "name": "feed",
+  "description": "Display a live feed in your app.",
+  "homepage": "https://github.com/svda/meteor-feed",
+  "author": "Sander van den Akker  (http://sandervandenakker.nl)",
+  "version": "0.1.0",
+  "git": "https://github.com/svda/meteor-feed.git",
+  "packages": {
+    "router": {},
+    "module": {
+      "path": "/usr/local/var/www/meteor/packages/module",
+      "git": "https://github.com/svda/meteor-module",
+      "branch": "master"
+    }
+  }
+}
